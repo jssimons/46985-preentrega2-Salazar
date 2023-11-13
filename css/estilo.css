@@ -54,11 +54,12 @@ a {
 
 }
 
-a:hover { /*Todos los elementos <a> cuando el mouse esté posicionado sobre ellos*/
+a:hover { 
     font-weight: bold;
     padding: 5px;
-    background-color: rgb(10, 10, 60);
+    background-color:steelblue;
     color: azure;
+    border-radius: 5px;
 }
 
 
@@ -252,6 +253,7 @@ h2{
 .botonenviar{
     padding: 0 900px;
 }
+
 
 .card-img-top{
     width: 400px;
