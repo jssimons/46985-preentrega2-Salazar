@@ -1,0 +1,163 @@
+.principal {
+    border-top-width: 0;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 5px;
+    border-style: solid;
+    border-radius: 10px;
+    margin-top: 0;
+    padding: 30px;
+    width: 100%;
+  }
+  
+  .parrafoprincipal {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  
+  .copas {
+    width: 350px;
+    height: 250px;
+    padding-left: 710px;
+  }
+  
+  .card-img-top {
+    width: 400px;
+    height: 250px;
+    padding-left: 50px;
+  }
+  
+  .parte1 {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  
+  .cosmo {
+    width: 400px;
+    height: 250px;
+    padding-left: 200px;
+  }
+  
+  .parrafo1 {
+    text-align: center;
+    padding-right: 200px;
+  }
+  
+  .parte2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px;
+    margin-top: 30px;
+  }
+  
+  .old {
+    width: 400px;
+    height: 255px;
+    padding-right: 100px;
+    padding-left: 250px;
+  }
+  
+  .parrafo2 {
+    text-align: center;
+    padding-left: 200px;
+  }
+  
+  h2 {
+    font-size: 26px;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  
+  .autor {
+    width: 400px;
+    height: 250px;
+    padding-left: 200px;
+  }
+  
+  .clasico {
+    width: 400px;
+    height: 250px;
+    padding-left: 350px;
+  }
+  
+  .parte3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .parte4 {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: 30px;
+  }
+  
+  .receta1 {
+    text-align: center;
+    padding-left: 200px;
+  }
+  
+  .receta2 {
+    text-align: center;
+    padding-right: 150px;
+  }
+  
+  .martini {
+    width: 400px;
+    height: 250px;
+    padding-left: 350px;
+  }
+  
+  .bar {
+    width: 400px;
+    height: 250px;
+    padding-left: 150px;
+  }
+  
+  .parte5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .parte6 {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: 30px;
+  }
+  
+  .serv1 {
+    text-align: center;
+    padding-left: 150px;
+  }
+  
+  .serv2 {
+    text-align: center;
+    padding-right: 150px;
+  }
+  
+  .mb-3 {
+    padding: 20px 70px;
+  }
+  
+  .opciones {
+    padding: 25px 70px;
+  }
+  
+  .botonenviar {
+    padding: 0 900px;
+  }
+  

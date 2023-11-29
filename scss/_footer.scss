@@ -1,0 +1,20 @@
+@mixin final{
+  background-color: black;
+    padding: 35px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+    width: 100%;
+}
+
+
+footer {
+    @include final
+  }
+  
+  .boots {
+    margin-top: 50px;
+  }
+  

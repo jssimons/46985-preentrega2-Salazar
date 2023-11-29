@@ -1,0 +1,66 @@
+.contenedorpadre {
+    background-color: greenyellow;
+}
+
+body {
+    background-color: lightgreen;
+}
+
+@mixin headerestilo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: greenyellow;
+    padding: 30px 30px;
+    position: sticky;
+    border: solid black 5px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+header {
+    @include headerestilo;
+}
+
+.portada {
+    width: 400px;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: indigo;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+@mixin anclas{
+    color: darkgrey;
+    font-size: 25px;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+a {
+    @include anclas;
+
+    &:hover {
+        font-weight: bold;
+        padding: 5px;
+        background-color: steelblue;
+        color: azure;
+        border-radius: 5px;
+    }
+}
+
+li {
+    display: inline;
+    padding: 0 20px;
+}
